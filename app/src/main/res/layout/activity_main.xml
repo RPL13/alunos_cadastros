@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F1F2F5"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/btnCadastroAluno"
+        style="@style/Btn"
+        android:layout_width="313dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/black"
+        android:text="Cadastrar Aluno" />
+
+    <Button
+        android:id="@+id/btnListagemAlunos"
+        style="@style/Btn"
+        android:layout_width="318dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/black"
+        android:text="Listar Alunos" />
+
+</LinearLayout>
